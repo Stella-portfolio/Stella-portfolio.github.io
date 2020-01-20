@@ -1,0 +1,13 @@
+*{background-color: white; font-family: ; --primary-a:#0d5ba6; --grey:#adadad; --black:#000000;}
+ul, ol, li {list-style: none;}
+a{cursor: pointer; text-decoration: none; color: #000000;}
+label, button, [type=button], [type=submit], [type=reset], a{cursor: pointer;}
+.clearfix:after {content: ""; display: block; clear: both;}
+
+body header{}
+body header nav{width: 80%; margin: 0 auto;}
+body header nav ul{position: relative;}
+body header nav ul li{float: left; width: 25%; text-align: center;}
+
+body header section{}
+body header section img{width: 100%;}

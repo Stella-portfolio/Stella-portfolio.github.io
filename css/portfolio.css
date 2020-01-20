@@ -1,0 +1,28 @@
+.cate-nav input{display: none;}
+
+.innerbox .innerbox-cnt{padding: 30px 10px;}
+.innerbox .innerbox-cnt {display: none; border: 2px solid var(--black); margin-top: 30px; background-color: #fff; overflow: scroll;}
+.cate-nav .clearfix li label:hover{}
+.cate-nav input{display: none;}
+.cate-nav ul{display: block;}
+.cate-nav ul li {float: left; width: 16%;}
+.cate-nav ul li label {display: block; height: 30px; text-align: center; text-transform: uppercase; cursor: pointer;}
+.cate-nav .innerbox .innerbox-cnt {display: none; border: 2px solid var(--black); margin-top: 30px; background-color: #fff; overflow: scroll;}
+
+
+
+
+
+.cate-nav #m1:checked~ul li:nth-child(1) label,
+.cate-nav #m2:checked~ul li:nth-child(2) label,
+.cate-nav #m3:checked~ul li:nth-child(3) label,
+.cate-nav #m4:checked~ul li:nth-child(4) label,
+.cate-nav #m5:checked~ul li:nth-child(5) label,
+.cate-nav #m6:checked~ul li:nth-child(6) label{font-weight: bold; color: black;}
+
+.cate-nav #m1:checked~.innerbox .innerbox-cnt:nth-child(1),
+.cate-nav #m2:checked~.innerbox .innerbox-cnt:nth-child(2),
+.cate-nav #m3:checked~.innerbox .innerbox-cnt:nth-child(3),
+.cate-nav #m4:checked~.innerbox .innerbox-cnt:nth-child(4),
+.cate-nav #m5:checked~.innerbox .innerbox-cnt:nth-child(5),
+.cate-nav #m6:checked~.innerbox .innerbox-cnt:nth-child(6) {display: block;}
