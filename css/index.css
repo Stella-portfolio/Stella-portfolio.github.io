@@ -1,0 +1,5 @@
+
+
+body main section{}
+body main section img{position: relative; float: left; width: 75%;}
+body main section p{position: absolute; right: 100px; margin-top: 5%; text-align: right; font-size: 3em;}

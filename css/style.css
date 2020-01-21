@@ -1,13 +1,13 @@
-*{background-color: white; font-family: ; --primary-a:#0d5ba6; --grey:#adadad; --black:#000000;}
-ul, ol, li {list-style: none;}
+*{background-color: white; font-family: 'Playfair Display', serif; --primary-a:#104c63; --lightgrey:#a0a0a0; --darkgrey:#515253; --point:#e2c700; --black:#000000;}
+ul, ol, li {list-style: none; padding: 0;}
 a{cursor: pointer; text-decoration: none; color: #000000;}
 label, button, [type=button], [type=submit], [type=reset], a{cursor: pointer;}
 .clearfix:after {content: ""; display: block; clear: both;}
 
-body header{}
-body header nav{width: 80%; margin: 0 auto;}
-body header nav ul{position: relative;}
-body header nav ul li{float: left; width: 25%; text-align: center;}
-
-body header section{}
-body header section img{width: 100%;}
+body{margin: 100px;}
+body header .logo{float: left;}
+body header .logo a img{width: 100px;}
+body header nav{width: 50%; margin: 0 auto; position: absolute; left: 40%;}
+body header nav ul li{float: left; width: 24.5%; text-align: center; border: 1px solid transparent; padding-top: 3em;}
+body header nav ul li a{font-size: 1.7em;}
+body header nav ul li:hover{color: var(--primary-a); border-bottom: 1px solid var(--primary-a); font-weight: 500;}
