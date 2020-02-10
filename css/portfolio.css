@@ -1,15 +1,14 @@
-.cate-nav input{display: none;}
+main{margin-top: 50px;}
 
-.innerbox .innerbox-cnt{padding: 30px 10px;}
-.innerbox .innerbox-cnt {display: none; border: 2px solid var(--black); margin-top: 30px; background-color: #fff; overflow: scroll;}
+.cate-nav input{display: none;}
 .cate-nav .clearfix li label:hover{}
 .cate-nav input{display: none;}
 .cate-nav ul{display: block;}
 .cate-nav ul li {float: left; width: 16%;}
 .cate-nav ul li label {display: block; height: 30px; text-align: center; text-transform: uppercase; cursor: pointer;}
-.cate-nav .innerbox .innerbox-cnt {display: none; border: 2px solid var(--black); margin-top: 30px; background-color: #fff; overflow: scroll;}
-
-
+.cate-nav .innerbox .innerbox-cnt {display: none; border: 1px solid var(--black); margin-top: 30px; padding: 30px 10px; height: 700px; background-color: #fff; overflow: scroll;}
+.cate-nav .innerbox .innerbox-cnt img{width: 100%;}
+.cate-nav .innerbox .innerbox-cnt img+img{padding-top: 40px;}
 
 
 
@@ -18,7 +17,7 @@
 .cate-nav #m3:checked~ul li:nth-child(3) label,
 .cate-nav #m4:checked~ul li:nth-child(4) label,
 .cate-nav #m5:checked~ul li:nth-child(5) label,
-.cate-nav #m6:checked~ul li:nth-child(6) label{font-weight: bold; color: black;}
+.cate-nav #m6:checked~ul li:nth-child(6) label{color: var(--primary-a); border-bottom: 1px solid var(--primary-a); font-weight: 500;}
 
 .cate-nav #m1:checked~.innerbox .innerbox-cnt:nth-child(1),
 .cate-nav #m2:checked~.innerbox .innerbox-cnt:nth-child(2),

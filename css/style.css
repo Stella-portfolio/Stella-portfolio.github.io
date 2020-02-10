@@ -9,5 +9,5 @@ body header .logo{float: left;}
 body header .logo a img{width: 100px;}
 body header nav{width: 50%; margin: 0 auto; position: absolute; left: 40%;}
 body header nav ul li{float: left; width: 24.5%; text-align: center; border: 1px solid transparent; padding-top: 3em;}
-body header nav ul li a{font-size: 1.7em;}
+body header nav ul li a{font-size: 1.3em;}
 body header nav ul li:hover{color: var(--primary-a); border-bottom: 1px solid var(--primary-a); font-weight: 500;}
