@@ -1,5 +1,5 @@
 main{margin-top: 50px;}
-
+/* 
 .cate-nav input{display: none;}
 .cate-nav .clearfix li label:hover{}
 .cate-nav input{display: none;}
@@ -25,3 +25,9 @@ main{margin-top: 50px;}
 .cate-nav #m4:checked~.innerbox .innerbox-cnt:nth-child(4),
 .cate-nav #m5:checked~.innerbox .innerbox-cnt:nth-child(5),
 .cate-nav #m6:checked~.innerbox .innerbox-cnt:nth-child(6) {display: block;}
+ */
+
+.contents ul
+.contents ul li{}
+.contents ul li:nth-child(2n){}
+
