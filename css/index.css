@@ -1,5 +1,17 @@
 
 
-body main section{}
-body main section img{position: relative; float: left; width: 75%;}
-body main section p{position: absolute; right: 100px; margin-top: 5%; text-align: right; font-size: 3em;}
+header{height:90vh; position: relative; display: flex;}
+header nav{background-color: #474849; z-index: 2; width: 40%; height: 15%; overflow: hidden;}
+.nav-close{display: grid; grid-template-columns: 1fr 1.8fr 3fr; justify-content: space-around; align-items: center; height: 15%; width: 100%; position: absolute;}
+.nav-close .logo{text-indent: -9999px; background-image: url(/img/logo.jpg); background-position: center; background-size: contain; background-repeat: no-repeat; width: 50%; height: 50%; justify-self: center;}
+.nav-close ul{display: grid; grid-template-columns: 1fr 1fr 1fr; justify-self: center; width: 100%;}
+.nav-close ul li{justify-self: center;}
+.nav-button{cursor: pointer;}
+.nav-open{position: absolute; width: 40%; height: 100%; top: 15%; opacity: 0; pointer-events: none;}
+.close{position: relative; width: 30px; height: 30px; text-indent: -9999px; background: url(../img/closeicon.png) no-repeat; background-size:cover; border-color: white; top: 20px; right: -93%;}
+.info{display: flex; justify-content: space-around; align-items: center; width: 100%;}
+
+.nav-open .info ul li{padding-bottom: 20px;}
+.nav-open .nav-images{display: flex; justify-content: space-around; width: 100%;}
+
+header .cover{width: 75%; height: 100%; position: absolute; top: 15%; right: 0; object-fit: cover;}

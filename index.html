@@ -9,35 +9,48 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,500i,700,700i,800,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="clearfix">
-    <div class="logo">
-      <a href="index.html"><img src="img/logo.jpg" alt=""></a>
-    </div>
+  <header>
     <nav>
-      <ul class="clearfix">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a>Experience</a></li>
-        <li><a>Contact</a></li>
-      </ul>
+      <div class="nav-close">
+        <a href="index.html" class="logo">Stella's Portfolio</a>
+          <ul class="nav-links">
+            <li class="nav-button">Contact</li>
+            <li><a>Experience</a></li>
+            <li><a>Portfolio</a></li>
+          </ul>
+
+      </div>
+      <section class="nav-open">
+        <button class="close">close</button>
+        <div class="info">
+          <h2>E-Mail</h2>
+            <ul>
+              <li><a href="">hats</a></li>
+              <li><a href="">hats</a></li>
+              <li><a href="">hats</a></li>
+              <li><a href="">hats</a></li>
+            </ul>
+        </div>
+        <div class="nav-images">
+        </div>
+
+      </section>
     </nav>
-   
+    <img class="cover" src="./img/mainpage_cover3.png" alt="">
   </header>
 
   <main>
-    <section class="clearfix">
-      <img src="img/mainpage_cover.png" alt="main image">
-      <p>Welcome! I'm <strong>Stella</strong>.<br> I want to show you <br>more than you think.</p>
-    </section>
     
   </main>
-  <body>
-    
-  </body>
   <footer>
 
   </footer>
+</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
+  <script src="./js/index.js"></script>
   
-    <script src="js/index.js"></script>
+  
 </body>
 </html>
