@@ -1,4 +1,4 @@
-main{margin-top: 50px;}
+
 /* 
 .cate-nav input{display: none;}
 .cate-nav .clearfix li label:hover{}
@@ -27,7 +27,20 @@ main{margin-top: 50px;}
 .cate-nav #m6:checked~.innerbox .innerbox-cnt:nth-child(6) {display: block;}
  */
 
-.contents ul
-.contents ul li{}
-.contents ul li:nth-child(2n){}
+ header{height:90vh; position: relative; display: flex; overflow: hidden;}
+ header nav{background-color: #474849; z-index: 2; height: 15%; overflow: hidden;}
+ .nav-close{display: grid; grid-template-columns: 1fr 1.8fr 3fr; justify-content: space-around; align-items: center; height: 15%; width: 100%; position: absolute;}
+ .nav-close .logo{text-indent: -9999px; background-image: url(../img/logo.jpg); background-position: center; background-size: contain; background-repeat: no-repeat; width: 50%; height: 50%; justify-self: center;}
+ .nav-close ul{display: grid; grid-template-columns: 1fr 1fr 1fr; justify-self: center; width: 100%;}
+ .nav-close ul li{justify-self: center;}
+ .nav-links li a:hover{color: var(--hover); font-weight: bold;}
+ 
+ 
+.banner img{width: 100%;}
 
+/* main */
+main{width: 80%; margin: auto; padding: auto;}
+#works{display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px 40px; text-align: center;}
+.contents article a div+div{padding-top: 2em;}
+.pf-img{width: 80%; margin: auto;}
+.pf-img img{width: 80%;}
