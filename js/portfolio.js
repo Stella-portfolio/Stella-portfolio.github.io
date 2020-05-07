@@ -1,30 +1,34 @@
 const works = [
     {
         imgsrc : `../img/logo.jpg`,
-        title : `fdsfkfldsfl`,
-        discription : `qwerty`
+        title : `Pet shop`,
+        discription : `qwertysadcdsjslkfjdksljfklsjfklsjfklsjfkljsklfjsklfjlksjfkldsjflkjslkfjdsklfjlkjflksjlkfjsklfdsdsfgddsf`,
+        link : `https://stellach90.github.io/webstore/#`
+    },
+    {
+        imgsrc : `../img/logo.jpg`,
+        title : `Web megazine`,
+        discription : `qwertysadcdsjslkfjdksljfklsjfklsjfklsjfkljsklfjsklfjlksjfkldsjflkjslkfjdsklfjlkjflksjlkfjsklfdsdsfgddsf`,
+        link : `https://stellach90.github.io/Articleprj/`
     },
     {
         imgsrc : `../img/logo.jpg`,
         title : `fdsfkfldsfl`,
-        discription : `sdfghj`
+        discription : `sdfg`,
+        link : ``
     },
     {
-        imgsrc : `../img/logo.jpg`,
-        title : `fdsfkfldsfl`,
-        discription : `sdfg`
-    },
-    {
-        imgsrc : `../img/logo.jpg`,
-        title : `fdsfkfldsfl`,
-        discription : `sdfg`
+        imgsrc : `../img/banner/banner4.png`,
+        title : `Green P`,
+        discription : `sdfg`,
+        link : `../html/greenp.html`
     }
 ]
 
 function getworkAsHtmlString(work) {
 
     return `<article class="work">
-        <div class="pf-img"><a>
+        <div class="pf-img"><a href="${work.link}">
         <img src="${work.imgsrc}" alt="Work Image"></a></div>
         <h3><a>${work.title}</a></h3>
         <p>${work.discription}</p>
