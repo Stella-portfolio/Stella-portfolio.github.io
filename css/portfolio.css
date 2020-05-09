@@ -15,5 +15,5 @@ main{width: 80%; margin: auto; padding: 7% 0;}
 .contents article a div+div{padding-top: 2em;}
 .pf-img{margin: auto;}
 .pf-img img{width: 80%;}
-.work p{word-break: break-word;}
+.work p{word-break: break-word; margin: 15px;}
 
