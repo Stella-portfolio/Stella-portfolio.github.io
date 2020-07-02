@@ -13,8 +13,8 @@ const works = [
     },
     {
         imgsrc : `../img/logo.jpg`,
-        title : `fdsfkfldsfl`,
-        discription : `sdfg`,
+        title : `3D Minions work`,
+        discription : `3D chessboard (MAYA)`,
         link : ``
     },
     {
