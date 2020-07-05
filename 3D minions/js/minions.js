@@ -4,11 +4,11 @@ let container;
 let camera;
 let renderer;
 let scene;
-let house;
+let piece;
 
 
 function init() {
-  container = document.querySelector(".board");
+  container = document.querySelector(".minions");
 
   //Create scene
   scene = new THREE.Scene();
@@ -37,9 +37,9 @@ function init() {
 
   //Load Model
   let loader = new THREE.GLTFLoader();
-  loader.load("./mini/mini.gltf", function(gltf) {
+  loader.load("./minions/scene.gltf", function(gltf) {
     scene.add(gltf.scene);
-    house = gltf.scene.children[0];
+    piece = gltf.scene.children[0];
     animate();
   });
   
@@ -49,7 +49,6 @@ function init() {
 
 function animate() {
   requestAnimationFrame(animate);
-  // house.rotation.z += 0.005;
   renderer.render(scene, camera);
 }
 

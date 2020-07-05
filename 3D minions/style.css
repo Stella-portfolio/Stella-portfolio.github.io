@@ -7,7 +7,7 @@ body {
   
 }
 
-.board,
+div,
 canvas {
   position: absolute;
   width: 100%;

@@ -4,7 +4,7 @@ let container;
 let camera;
 let renderer;
 let scene;
-let piece;
+let house;
 
 
 function init() {
@@ -37,9 +37,9 @@ function init() {
 
   //Load Model
   let loader = new THREE.GLTFLoader();
-  loader.load("./mini/mini.gltf", function(gltf) {
+  loader.load("./marble_chessboard/board.gltf", function(gltf) {
     scene.add(gltf.scene);
-    piece = gltf.scene.children[0];
+    house = gltf.scene.children[0];
     animate();
   });
   
@@ -49,6 +49,7 @@ function init() {
 
 function animate() {
   requestAnimationFrame(animate);
+  // house.rotation.z += 0.005;
   renderer.render(scene, camera);
 }
 
@@ -66,5 +67,7 @@ function onWindowResize() {
 renderer.outputEncoding = THREE.sRGBEncoding;
 
 window.addEventListener("resize", onWindowResize);
+
+
 
 
