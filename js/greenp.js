@@ -1,7 +1,7 @@
 
 const works = [];
 for (let i = 0; i < 17; i++){
-    works.push({imgsrc : `../img/w1/${i}.png`
+    works.push({imgsrc : `../img/W1/${i}.png`
 });
 }
 
