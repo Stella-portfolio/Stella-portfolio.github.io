@@ -29,7 +29,7 @@ function getworkAsHtmlString(work) {
 
     return `<article class="work">
         <div class="pf-img"><a href="${work.link}">
-        <img src="${work.imgsrc}" alt="Work Image"></a></div>
+        <img src="${work.imgsrc}" alt="Work Image" class="shadow"></a></div>
         <h3><a class="t">${work.title}</a></h3>
         <p>${work.discription}</p>
         </article>`;

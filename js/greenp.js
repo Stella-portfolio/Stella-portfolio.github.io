@@ -1,6 +1,6 @@
 
 const works = [];
-for (let i = 0; i < 17; i++){
+for (let i = 1; i < 17; i++){
     works.push({imgsrc : `../img/W1/${i}.png`
 });
 }
