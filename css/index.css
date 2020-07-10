@@ -9,8 +9,8 @@ header nav{background-color: #474849; z-index: 2; width: 40%; height: 15%; overf
 .nav-links li:hover, li a:hover{color: var(--hover); font-weight: bold;}
 .nav-button{cursor: pointer;}
 .nav-open{position: absolute; width: 40%; height: 100%; top: 15%; opacity: 0; pointer-events: none;}
-.close{position: relative; width: 30px; height: 30px; text-indent: -9999px; background: url(../img/closeicon.png) no-repeat; background-size:cover; border-color: white; top: 20px; right: -93%;}
-.info{display: flex; justify-content: space-around; align-items: center; width: 100%;}
+.close{position: relative; width: 2em; height: 2em; text-indent: -9999px; background: url(../img/closeicon.png) no-repeat; background-size:cover; border: 0; top: 2em; right: -90%;}
+.info{display: flex; justify-content: space-around; align-items: center; width: 100%; position: relative; top: 5em;}
 
 .nav-open .info ul li{padding-bottom: 20px;}
 .nav-open .nav-images{display: flex; justify-content: space-around; width: 100%;}

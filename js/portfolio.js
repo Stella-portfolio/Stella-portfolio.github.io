@@ -1,7 +1,7 @@
 const works = [
     {
         imgsrc : `../img/banner/catsmart.png`,
-        title : `Pet shop`,
+        title : `Pet store`,
         discription : `Re-designed Petsmart`,
         link : `https://stellach90.github.io/webstore/#`
     },
@@ -21,6 +21,12 @@ const works = [
         imgsrc : `../img/banner/wine.png`,
         title : `3D cheese plate work`,
         discription : `3D cheese plate and wine (MAYA)`,
+        link : `../html/wine.html`
+    },
+    {
+        imgsrc : `../img/banner/fineart.png`,
+        title : `Fine art`,
+        discription : `Paintings, sculptures `,
         link : `../html/wine.html`
     }
 ]
