@@ -16,8 +16,8 @@ app.get('/', function (req, res) {
 });
 
 //creat about page route
-app.get('/wetfood', function (req, res) {
-    res.render('wetfood', {title : 'Wet Food'});
+app.get('/portfolio', function (req, res) {
+    res.render('portfolio', {title : 'Wet Food'});
 });
 
 app.get('/dryfood', function (req, res) {
@@ -32,4 +32,6 @@ app.get('/catnip', function (req, res) {
 app.use(express.static(path.join(__dirname, '/public')));
 
 app.listen(PORT, ()=> console.log('server listening on port ' + PORT))
+
+
 
