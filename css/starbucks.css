@@ -1,0 +1,2 @@
+.images{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: 1em; row-gap: 1.5em; width: 90%; margin: auto;}
+.images img{width: 100%; justify-self: center;}
