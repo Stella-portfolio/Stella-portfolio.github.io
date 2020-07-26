@@ -12,6 +12,12 @@ const works = [
         link : `../html/greenp.html`
     },
     {
+        imgsrc : `../img/banner/starbucks.png`,
+        title : `Starbucks`,
+        discription : `Application re-designed`,
+        link : `../html/starbuck.html`
+    },
+    {
         imgsrc : `../img/banner/minions.png`,
         title : `3D Minions work`,
         discription : `3D chessboard (MAYA)`,

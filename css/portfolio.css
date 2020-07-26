@@ -6,7 +6,7 @@ header nav{background-color: #474849; z-index: 2; height: 15%; overflow: hidden;
 .nav-close ul li{justify-self: center; text-transform: uppercase;}
 .nav-links li a:hover{color: var(--hover); font-weight: bold;}
  
-.banner{height: fit-content;}
+.banner{height: fit-content; position: absolute;}
 .banner img{width: 100%; padding-top: 8%;}
 
 /* main */
